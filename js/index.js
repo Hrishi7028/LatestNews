@@ -3,7 +3,7 @@ let newsAccordian = document.getElementById('newsAccordian');
 
 const xhr = new XMLHttpRequest();
 
-xhr.open('GET', `https://newsapi.org/v2/top-headlines?sources=the-times-of-india&apiKey=d093053d72bc40248998159804e0e67d`, true);
+xhr.open('GET', `https://newsapi.org/v2/top-headlines?sources=the-times-of-india&apiKey=6c7c80ae14324b1c9c341a9584a7a0c3`, true);
 
 
 xhr.onload = function () {
